@@ -158,6 +158,7 @@ GET /api/pedidos/pendientes
 - **Repository Pattern** — Desacoplamiento de la persistencia
 - **Service Pattern** — Lógica de negocio centralizada
 - **DTO Pattern** — Separación entre API y dominio
+- **Adapter Pattern** — Conversión de entidades del dominio a DTOs (`MapToResponse`)
 - **Dependency Injection** — Inyección de dependencias en Program.cs
 - **Singleton Pattern** — `IPedidoRepository` registrado como Singleton para compartir instancia única durante toda la ejecución, permitiendo persistencia de datos en memoria entre peticiones
 - **Strategy Pattern** — Extensible para diferentes métodos de pago (implementable en `IPagoService`)
