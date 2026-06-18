@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="TruckAndRoll.API/TruckAndRoll.API.csproj" />
+  <Project Path="TruckAndRoll.Application/TruckAndRoll.Application.csproj" />
+  <Project Path="TruckAndRoll.Domain/TruckAndRoll.Domain.csproj" />
+  <Project Path="TruckAndRoll.Infrastructure/TruckAndRoll.Infrastructure.csproj" />
+</Solution>
