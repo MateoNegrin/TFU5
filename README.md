@@ -159,6 +159,7 @@ GET /api/pedidos/pendientes
 - **Service Pattern** — Lógica de negocio centralizada
 - **DTO Pattern** — Separación entre API y dominio
 - **Dependency Injection** — Inyección de dependencias en Program.cs
+- **Singleton Pattern** — `IPedidoRepository` registrado como Singleton para compartir instancia única durante toda la ejecución, permitiendo persistencia de datos en memoria entre peticiones
 - **Strategy Pattern** — Extensible para diferentes métodos de pago (implementable en `IPagoService`)
 - **SOLID Principles** — Respeto de principios de diseño
 
@@ -181,4 +182,4 @@ GET /api/pedidos/pendientes
 ## Notas de desarrollo
 
 - El repositorio in-memory persiste datos solo durante la ejecución
-- Los datos de productos están hardcodeados; considerar cargarlos desde una fuente externa
+- Los datos de productos están hardcodeados, considerar cargarlos desde una fuente externa
